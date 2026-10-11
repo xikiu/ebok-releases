@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download Ebok
+    url: https://github.com/xikiu/ebok-releases#download
+    about: Find the current alpha installers for your computer.
+  - name: Installation help
+    url: https://github.com/xikiu/ebok-releases/blob/main/docs/INSTALLATION.md
+    about: First-launch instructions, manual updates, and checksum verification.

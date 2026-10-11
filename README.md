@@ -1,55 +1,64 @@
-# Ebok
+<p align="center">
+  <img src="assets/ebok-icon.png" width="80" alt="Ebok icon">
+</p>
+<h1 align="center">Ebok</h1>
+<p align="center">Your books. Your quiet corner.</p>
+<p align="center">A local-first ebook reader for macOS, Windows, and Linux.</p>
+<p align="center">
+  <a href="https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2"><img alt="Alpha 2 · pre-release" src="https://img.shields.io/badge/Alpha_2-pre--release-b05236?style=flat-square"></a>
+  <a href="https://github.com/xikiu/ebok-releases/releases"><img alt="macOS · Windows · Linux" src="https://img.shields.io/badge/desktop-macOS_%C2%B7_Windows_%C2%B7_Linux-6c775c?style=flat-square"></a>
+</p>
+<p align="center">
+  <a href="#download">Download</a> ·
+  <a href="docs/INSTALLATION.md">Installation guide</a> ·
+  <a href="CHANGELOG.md">Release notes</a> ·
+  <a href="https://github.com/xikiu/ebok-releases/issues/new/choose">Send feedback</a>
+</p>
 
-A local-first ebook reader for desktop. Import your books, organize your library, and return to your last reading position.
+![Ebok’s local library, showing reading progress and the Alice sample](assets/library.png)
 
-**Ebok is in alpha.** Expect rough edges and keep copies of your original ebooks.
+## Download
 
-## Download Alpha 1
+**Current release: [v0.1.0-alpha.2 — Alpha 2](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2).** This is an early testing release. Keep copies of your original ebooks.
 
-[Download v0.1.0-alpha.1](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.1)
+| Platform | Architecture | Installer |
+| :--- | :--- | :--- |
+| macOS | Apple Silicon (M-series) | [Download DMG](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-0.1.0-alpha.2-mac-arm64.dmg) |
+| macOS | Intel | [Download DMG](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-0.1.0-alpha.2-mac-x64.dmg) |
+| Windows | x64 | [Download installer](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-0.1.0-alpha.2-win-x64.exe) |
+| Linux | x64 | [Download AppImage](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-0.1.0-alpha.2-linux-x64.AppImage) |
 
-Choose an installer from the release’s **Assets** section:
+Mac builds are not notarized; Windows installers are unsigned. See the [installation guide](docs/INSTALLATION.md) for first-launch instructions, manual updates, and checksum verification.
 
-| Computer | Download |
-| --- | --- |
-| Mac with Apple Silicon (M-series) | `Ebok-0.1.0-alpha.1-mac-arm64.dmg` |
-| Intel Mac | `Ebok-0.1.0-alpha.1-mac-x64.dmg` |
-| Windows x64 | `Ebok-0.1.0-alpha.1-win-x64.exe` |
-| Linux x64 | `Ebok-0.1.0-alpha.1-linux-x64.AppImage` |
+## A place for your reading
 
-Windows installers are unsigned and macOS apps are not notarized. Your operating system may ask for additional confirmation before opening them.
+- **Bring your own books.** Import EPUB, PDF, Kindle/Mobipocket, FictionBook, comics, and more with drag and drop.
+- **Make a library that feels like yours.** Create collections, save favorites, and pick up where you left off.
+- **Settle into the page.** Adjust typography, page color, and reading flow; save bookmarks, highlights, and notes.
+- **Stay with the story.** Look up words in the bundled English dictionary, with optional translation and local AI explanations.
 
-### Install
+![Alice’s Adventures in Wonderland in Ebok’s distraction-free reader](assets/reader.png)
 
-- **macOS:** Open the DMG and drag Ebok into Applications. If macOS blocks the app, use **System Settings → Privacy & Security → Open Anyway** after attempting to open it. See [Apple’s instructions](https://support.apple.com/en-us/102445).
-- **Windows:** Run the installer. An unsigned-app warning may appear.
-- **Linux:** Make the AppImage executable, then open it: `chmod +x Ebok-0.1.0-alpha.1-linux-x64.AppImage`. AppImage support, including FUSE, must be available on your system.
+Your library is stored on your computer, and ordinary reading works offline. There is no account or cloud-sync service. Optional online lookup and translation need internet; local AI needs a compatible GPU and an initial model download.
 
-## Try a sample book
+## Try it with a classic
 
-[Download Alice’s Adventures in Wonderland (EPUB)](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.1/alice-in-wonderland.epub), by Lewis Carroll. [Project Gutenberg](https://www.gutenberg.org/ebooks/11) lists it as public domain in the USA; its original attribution and full license are retained. Import it using **Import books** or drag it into your library.
+[Download Alice’s Adventures in Wonderland (EPUB)](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/alice-in-wonderland.epub), by Lewis Carroll, then choose **Import books** or drop the file into Ebok.
 
-## What you can do
+[Project Gutenberg](https://www.gutenberg.org/ebooks/11) lists this book as public domain in the USA. The sample retains its original credits and full license. The screenshots above use this same sample. [Sample details](samples/README.md).
 
-- Read EPUB, PDF, Kindle/Mobipocket, FictionBook, CBZ comics, TXT, Markdown, HTML, and DOCX files.
-- Organize books into collections, add favorites, and track reading progress.
-- Save bookmarks, highlights, and notes; adjust fonts, layout, and reading themes.
-- Look up words with the built-in English dictionary and use optional translation and local AI explanations.
-- Convert additional legacy formats when [Calibre](https://calibre-ebook.com/download) is installed separately.
+## Before you start
 
-Ordinary reading works offline. Books and reading data stay on your computer; there is no account or cloud-sync service. Online dictionary fallback and translation require internet. Optional AI explanations require a compatible GPU and an initial model download.
+Imports are limited to **100 MB per file**. DRM-protected ebooks, KFX, ACSM, legacy DOC, and password-protected PDFs are unsupported. PDF and comic text search and OCR are unavailable. Extra legacy formats require a separate Calibre installation. See [supported formats and alpha limitations](docs/FORMATS.md).
 
-## Alpha limitations
+Updates are installed manually. Desktop and browser libraries are separate, and there is no cloud backup. Keep your original ebook files; deleting app data removes the local library.
 
-- DRM-protected ebooks, KFX, ACSM, legacy DOC, and password-protected PDFs are not supported.
-- Imported files are limited to 100 MB. Large books may need substantial memory.
-- PDF and comic text search is not available. Scanned pages are not OCR’d.
-- Desktop and browser libraries are separate; there is no automatic migration or cloud backup.
-- Local library data can be lost if app data is deleted. Keep your original ebook files.
-- Updates are installed manually from this repository’s releases.
+## Help shape Ebok
 
-## Feedback
+Found something that gets in the way of reading? [Report a bug](https://github.com/xikiu/ebok-releases/issues/new?template=bug_report.yml). Have an idea? [Suggest a feature](https://github.com/xikiu/ebok-releases/issues/new?template=feature_request.yml).
 
-[Report a bug](https://github.com/xikiu/ebok-releases/issues/new?template=bug_report.yml) or [suggest a feature](https://github.com/xikiu/ebok-releases/issues/new). Include the app version, operating system, book format, and steps to reproduce. Please avoid attaching copyrighted books or personal reading data; a small sample you can share is preferable.
+For bugs, include your Ebok version, operating system, book format, and reproduction steps. Use the Alice sample or another small file you have permission to share.
 
-This repository contains public downloads, release notes, and feedback. Ebok’s application source is maintained privately. Third-party component licenses are included in the application; optional AI-model weights retain their upstream terms.
+---
+
+This is Ebok’s public home for downloads, release notes, and feedback. The application source is maintained privately. Third-party component licenses are included in the app; optional AI-model weights retain their upstream terms.
