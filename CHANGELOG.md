@@ -16,7 +16,7 @@ The first public alpha of Ebok, a local-first desktop ebook reader.
 
 Installers are provided for macOS Apple Silicon, macOS Intel, Windows x64, and Linux x64. Choose the file matching your computer from **Assets**. `alice-in-wonderland.epub` is an optional public-domain sample from [Project Gutenberg](https://www.gutenberg.org/ebooks/11), with its attribution and original license retained. `SHA256SUMS.txt` contains the checksums of the installers and sample ebook.
 
-These builds are unsigned and macOS builds are not notarized. See the [installation instructions](https://github.com/xikiu/ebok-releases#install).
+Windows installers are unsigned and macOS apps are not notarized. See the [installation instructions](https://github.com/xikiu/ebok-releases#install).
 
 ### Known limitations
 

@@ -17,7 +17,7 @@ Choose an installer from the release’s **Assets** section:
 | Windows x64 | `Ebok-0.1.0-alpha.1-win-x64.exe` |
 | Linux x64 | `Ebok-0.1.0-alpha.1-linux-x64.AppImage` |
 
-Installers are unsigned; macOS builds are not notarized. Your operating system may ask for additional confirmation before opening them.
+Windows installers are unsigned and macOS apps are not notarized. Your operating system may ask for additional confirmation before opening them.
 
 ### Install
 
