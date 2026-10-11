@@ -1,4 +1,4 @@
-# Install Ebok Alpha 2
+# Install Ebok Alpha
 
 [← Back to Ebok](../README.md) · [All releases](https://github.com/xikiu/ebok-releases/releases)
 
@@ -21,8 +21,8 @@ Run the `.exe` installer and follow the setup steps. The alpha installer is unsi
 Make the AppImage executable, then launch it:
 
 ```sh
-chmod +x Ebok-0.1.0-alpha.2-linux-x64.AppImage
-./Ebok-0.1.0-alpha.2-linux-x64.AppImage
+chmod +x Ebok-Alpha-linux-x64.AppImage
+./Ebok-Alpha-linux-x64.AppImage
 ```
 
 Your system needs AppImage support, including FUSE. Use your distribution’s package instructions if FUSE is missing.
@@ -46,19 +46,19 @@ Each release includes `SHA256SUMS.txt`. Download it alongside your installer and
 **macOS**
 
 ```sh
-shasum -a 256 Ebok-0.1.0-alpha.2-mac-arm64.dmg
+shasum -a 256 Ebok-Alpha-mac-arm64.dmg
 ```
 
 **Windows (PowerShell)**
 
 ```powershell
-Get-FileHash .\Ebok-0.1.0-alpha.2-win-x64.exe -Algorithm SHA256
+Get-FileHash .\Ebok-Alpha-win-x64.exe -Algorithm SHA256
 ```
 
 **Linux**
 
 ```sh
-sha256sum Ebok-0.1.0-alpha.2-linux-x64.AppImage
+sha256sum Ebok-Alpha-linux-x64.AppImage
 ```
 
 Use your downloaded filename if it differs from the example. Matching checksums confirm that your file matches the published release asset.

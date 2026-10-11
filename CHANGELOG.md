@@ -1,6 +1,6 @@
 # Release notes
 
-## [v0.1.0-alpha.2 — Alpha 2](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2)
+## [Ebok Alpha](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2)
 
 A cleaner library sidebar and a refreshed public download page.
 
@@ -12,7 +12,7 @@ A cleaner library sidebar and a refreshed public download page.
 Installers are available for macOS Apple Silicon and Intel, Windows x64, and Linux x64. Mac builds are not notarized; Windows installers are unsigned. [Installation guide](docs/INSTALLATION.md).
 
 
-## v0.1.0-alpha.1 — Alpha 1
+## Initial public alpha
 
 The first public alpha of Ebok, a local-first desktop ebook reader.
 

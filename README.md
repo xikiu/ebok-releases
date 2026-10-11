@@ -5,7 +5,7 @@
 <p align="center">Your books. Your quiet corner.</p>
 <p align="center">A local-first ebook reader for macOS, Windows, and Linux.</p>
 <p align="center">
-  <a href="https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2"><img alt="Alpha 2 · pre-release" src="https://img.shields.io/badge/Alpha_2-pre--release-b05236?style=flat-square"></a>
+  <a href="https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2"><img alt="Alpha · pre-release" src="https://img.shields.io/badge/Alpha-pre--release-b05236?style=flat-square"></a>
   <a href="https://github.com/xikiu/ebok-releases/releases"><img alt="macOS · Windows · Linux" src="https://img.shields.io/badge/desktop-macOS_%C2%B7_Windows_%C2%B7_Linux-6c775c?style=flat-square"></a>
 </p>
 <p align="center">
@@ -19,14 +19,14 @@
 
 ## Download
 
-**Current release: [v0.1.0-alpha.2 — Alpha 2](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2).** This is an early testing release. Keep copies of your original ebooks.
+**Current release: [Ebok Alpha](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2).** This is an early testing release. Keep copies of your original ebooks.
 
 | Platform | Architecture | Installer |
 | :--- | :--- | :--- |
-| macOS | Apple Silicon (M-series) | [Download DMG](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-0.1.0-alpha.2-mac-arm64.dmg) |
-| macOS | Intel | [Download DMG](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-0.1.0-alpha.2-mac-x64.dmg) |
-| Windows | x64 | [Download installer](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-0.1.0-alpha.2-win-x64.exe) |
-| Linux | x64 | [Download AppImage](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-0.1.0-alpha.2-linux-x64.AppImage) |
+| macOS | Apple Silicon (M-series) | [Download DMG](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-Alpha-mac-arm64.dmg) |
+| macOS | Intel | [Download DMG](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-Alpha-mac-x64.dmg) |
+| Windows | x64 | [Download installer](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-Alpha-win-x64.exe) |
+| Linux | x64 | [Download AppImage](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.2/Ebok-Alpha-linux-x64.AppImage) |
 
 Mac builds are not notarized; Windows installers are unsigned. See the [installation guide](docs/INSTALLATION.md) for first-launch instructions, manual updates, and checksum verification.
 
