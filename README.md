@@ -30,9 +30,11 @@ An unfamiliar word can pull you out of a story. Ebok’s AI uses the selected wo
 
 AI needs a compatible GPU and an initial **~700 MB download**. Once the required model files are cached, explanations can run offline. AI answers can be mistaken; the bundled dictionary remains available alongside them. [AI setup, privacy, and requirements](docs/AI.md).
 
-![Ebok’s word popup showing dictionary meanings and the option to enable on-device AI](assets/ai-reading.png)
+<p align="center">
+  <img src="assets/ai-explanation.png" width="440" alt="Ebok showing the dictionary meaning of remarkable and a completed Llama-generated AI explanation">
+</p>
 
-*The Alice sample with the real AI opt-in panel, before the model download.*
+*A real Llama-generated explanation in the Alice sample, captured from the Alpha app.* [View the full reader](assets/ai-reading.png).
 
 ## Download
 

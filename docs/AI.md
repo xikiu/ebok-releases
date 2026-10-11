@@ -16,6 +16,10 @@ The public alpha uses **Meta’s Llama 3.2 1B Instruct**, with 4-bit weights, ru
 | Processing | On your device, in a dedicated worker |
 | First download | Approximately 700 MB; model files are cached locally |
 
+![The Alice sample open in Ebok, with a completed on-device AI explanation for remarkable](../assets/ai-reading.png)
+
+*Captured from the Alpha app after Llama generated the explanation on the device.* [View the AI popup up close](../assets/ai-explanation.png).
+
 ## Try the AI
 
 1. Open a text-based book, such as the [Alice sample](../samples/README.md).
