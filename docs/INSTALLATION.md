@@ -33,6 +33,10 @@ Download the [Alice sample](../samples/README.md), open Ebok, and choose **Impor
 
 Open **Settings** at the bottom of the sidebar to choose Light, Dark, or System appearance. Adjust book typography and page color in **Reading preferences**, or use **Reading appearance** while a book is open.
 
+## Enable AI word explanations
+
+Select a word in a text-based book, choose **Define**, then **Enable AI · download ~700 MB**. Ebok uses Llama 3.2 1B Instruct on your device. A compatible GPU and internet for the initial download are required. See the [AI guide](AI.md) for setup and privacy details.
+
 ## Update from an earlier alpha
 
 Quit Ebok, download the new installer, and replace the application using the same installation steps. On Linux, replace your old AppImage. Updates are manual; Ebok does not download or install them automatically.

@@ -29,6 +29,6 @@ Additional legacy formats (`.azw4`, `.cbr`, `.cb7`, `.cbc`, `.chm`, `.djvu`, `.h
 - Local library data can be lost when app data is deleted. Keep copies of your original books.
 - Desktop and browser libraries are separate. Cloud sync, cloud backup, and automatic library migration are unavailable.
 - Updates must be downloaded and installed manually.
-- Online dictionary fallback and translation require internet. Optional local AI explanations require a compatible GPU and an initial model download.
+- Online dictionary fallback and translation require internet. [On-device AI word explanations](AI.md) use Llama 3.2 1B Instruct and require a compatible GPU and an initial ~700 MB model download.
 
 If a supported book fails to open, [report a bug](https://github.com/xikiu/ebok-releases/issues/new?template=bug_report.yml) with the format and steps to reproduce. Use a small sample you can share.

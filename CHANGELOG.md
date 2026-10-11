@@ -2,7 +2,13 @@
 
 ## [Alpha](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2)
 
-A cleaner library sidebar and a refreshed public download page.
+AI-assisted reading with on-device word explanations, a cleaner library sidebar, and a refreshed public download page.
+
+### AI reading highlight
+
+The alpha includes **Meta’s Llama 3.2 1B Instruct**, running locally through **WebLLM + WebGPU** with 4-bit weights. Select a word and choose **Define** for an optional explanation of its meaning in the surrounding passage. Enable AI once with an initial ~700 MB model download; a compatible GPU is required. Word and passage text stay on-device for AI inference. [AI guide](docs/AI.md).
+
+### Release updates
 
 - Removed the Profile / Plan subscription card and the unused Billing and Log out screens.
 - Added a direct **Settings** shortcut for interface appearance and reading preferences.
@@ -21,7 +27,7 @@ The first public alpha of Ebok, a local-first desktop ebook reader.
 - Multi-format reading: EPUB, PDF, MOBI/AZW/AZW3/KF8/PRC, FB2, CBZ, TXT, Markdown, HTML, and DOCX.
 - A local library with collections, favorites, reading progress, and drag-and-drop imports.
 - Bookmarks, highlights, notes, themes, and reader appearance controls.
-- A bundled English dictionary, optional online translation, and optional local AI word explanations.
+- On-device AI word explanations using Meta’s Llama 3.2 1B Instruct via WebLLM + WebGPU, alongside a bundled English dictionary and optional online translation.
 - Optional legacy-format conversion through a separately installed Calibre.
 
 ### Downloads
