@@ -19,7 +19,7 @@
 
 ## Download
 
-**Current release: [Ebok Alpha](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2).** This is an early testing release. Keep copies of your original ebooks.
+**Current release: [Alpha](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2).** This is an early testing release. Keep copies of your original ebooks.
 
 | Platform | Architecture | Installer |
 | :--- | :--- | :--- |

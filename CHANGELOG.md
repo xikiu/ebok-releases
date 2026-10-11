@@ -1,6 +1,6 @@
 # Release notes
 
-## [Ebok Alpha](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2)
+## [Alpha](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2)
 
 A cleaner library sidebar and a refreshed public download page.
 
