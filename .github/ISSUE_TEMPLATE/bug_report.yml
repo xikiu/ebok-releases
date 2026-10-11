@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a problem with the Ebok alpha.
+title: "[Bug]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Ebok version
+      placeholder: 0.1.0-alpha.1
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Operating system and processor
+      placeholder: macOS 15 on Apple Silicon, Windows 11 x64, or Ubuntu 22.04 x64
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: What happened and how can we reproduce it?
+      description: Include the book format, steps, expected result, and actual result. Do not attach private data or books you do not have permission to share.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or logs (optional)
+      description: Remove personal information before sharing.
