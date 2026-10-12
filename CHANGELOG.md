@@ -1,5 +1,17 @@
 # Release notes
 
+## [Alpha 3](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.3)
+
+Updated to the current project reader codebase.
+
+- Refreshed AI explanations with a rounded card, sparkle icon, clearer setup and retry buttons, and improved loading states.
+- Added trackpad and mouse-wheel page navigation.
+- Improved translation language validation and error messages, including Malay results.
+- Improved selection menu animations and scrolling for long definitions.
+- Retained the alpha Settings sidebar and desktop packaging fixes.
+
+Validated with the desktop build, unit tests, browser tests, and packaged installer checks on all four platforms.
+
 ## [Alpha](https://github.com/xikiu/ebok-releases/releases/tag/v0.1.0-alpha.2)
 
 AI-assisted reading with on-device word explanations, a cleaner library sidebar, and a refreshed public download page.
