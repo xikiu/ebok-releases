@@ -24,7 +24,7 @@ The public alpha uses **Meta’s Llama 3.2 1B Instruct**, with 4-bit weights, ru
 
 1. Open a text-based book, such as the [Alice sample](../samples/README.md).
 2. Select a single word and choose **Define**.
-3. Choose **Enable AI · download ~700 MB** in the word popup.
+3. Choose **Enable AI explanation** in the word popup. The first download is approximately 700 MB.
 4. Keep an internet connection while the model downloads. Dictionary meanings remain available while AI loads.
 5. Once AI is ready, read the explanation beside the dictionary definition. Select another word and choose **Define** to use it again.
 

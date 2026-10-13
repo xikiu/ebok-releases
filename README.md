@@ -18,6 +18,14 @@
   <a href="https://github.com/xikiu/ebok-releases/issues/new/choose">Send feedback</a>
 </p>
 
+<p align="center">
+  <img src="assets/ai-demo.gif" width="600" alt="A real Ebok Alpha demo: select remarkable in Alice, choose Define, and see a completed on-device Llama explanation">
+</p>
+
+*Select a word. Understand it. Keep reading.* [Watch the full demo (MP4)](assets/ebok-alpha-demo.mp4).
+
+Recorded at normal speed using the Alice sample, after the model was downloaded and ready. First-time AI setup requires a compatible GPU and an approximately 700 MB download.
+
 ## AI that understands the context
 
 An unfamiliar word can pull you out of a story. Ebok’s AI uses the selected word and its surrounding passage to offer a short explanation of what it means **in that sentence**, right beside the page.
@@ -31,10 +39,10 @@ An unfamiliar word can pull you out of a story. Ebok’s AI uses the selected wo
 AI needs a compatible GPU and an initial **~700 MB download**. Once the required model files are cached, explanations can run offline. AI answers can be mistaken; the bundled dictionary remains available alongside them. [AI setup, privacy, and requirements](docs/AI.md).
 
 <p align="center">
-  <img src="assets/ai-explanation.png" width="440" alt="Ebok showing the dictionary meaning of idea and the updated AI explanation card">
+  <img src="assets/ai-explanation.png" width="440" alt="Ebok showing the dictionary meaning of remarkable and a completed Llama explanation in the Alpha app">
 </p>
 
-*The current AI explanation interface, captured from the project. Alpha 3 includes this updated card.*
+*A real Llama-generated explanation, captured in the Alpha app using Alice.* [View the full reader](assets/ai-reading.png).
 
 ## Download
 
@@ -64,7 +72,7 @@ Your library is stored on your computer, and ordinary reading works offline. The
 
 [Download Alice’s Adventures in Wonderland (EPUB)](https://github.com/xikiu/ebok-releases/releases/download/v0.1.0-alpha.3/alice-in-wonderland.epub), by Lewis Carroll, then choose **Import books** or drop the file into Ebok.
 
-[Project Gutenberg](https://www.gutenberg.org/ebooks/11) lists this book as public domain in the USA. The sample retains its original credits and full license. The library and full-reader screenshots use this sample. [Sample details](samples/README.md).
+[Project Gutenberg](https://www.gutenberg.org/ebooks/11) lists this book as public domain in the USA. The sample retains its original credits and full license. The demo and screenshots above use this sample. [Sample details](samples/README.md).
 
 ## Before you start
 
